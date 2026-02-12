@@ -1,59 +1,53 @@
-# Exploration, Variance, and Long-Horizon Systems
+# 0rion-369 | M.O.C.
 
-**When optimization becomes a structural risk**
+**Structural Research & Conceptual Mapping**
 
----
-
-This repository collects reflections, conceptual frameworks, and fragments  
-examining the long-term effects of closed-loop optimization.
-
-The central hypothesis is the following:
-
-> High local performance can coexist  
-> with a global loss of exploratory capacity.
-
-In other words, a system may continue to function well  
-while gradually becoming unable to discover,  
-to learn outside its own attractors,  
-or to produce meaningful novelty.
+Independent investigation into the intersection of closed-loop optimization, recursive feedback, and exogenous entropy.
 
 ---
 
-## Scope
+## 🔬 Current Research Pillars
 
-The materials here explore, among other things:
+### [The-Entropic-Zoo-Protocol](https://github.com/0rion-369/The-Entropic-Zoo-Protocol)
+**The Map.** A conceptual framework examining the ecosystem dynamics of optimization loops and the structural role of exogenous entropy.
 
-- contraction of the exploratory space under optimization pressure,
-- limits of self-referential feedback loops,
-- the distinction between endogenous and exogenous variance,
-- systemic risks in long-horizon adaptive systems.
-
-Formats are intentionally varied:  
-short fragments, conceptual notes, compact manifestos,  
-and structured thought experiments.
+### [closed-loop-optimization-risks](https://github.com/0rion-369/closed-loop-optimization-risks)
+**The Proof.** A minimal scientific case for the structural risk of exploration collapse in closed-loop systems. Hypothesis, protocol, results.
 
 ---
 
-## Positioning
-
-This repository does not offer:
-- ready-made solutions,
-- normative prescriptions,
-- or claims of authority.
-
-Its sole purpose is to **outline structures of thought**  
-and document convergences observed  
-between theory, practice, and emergent phenomena.
+## 🧩 Core Interests
+* **Variables:** $(S, V, P)$ Optimization Topology
+* **Entropy Sources:** Kinetic-RNG, Rhythmic Resonance, Bio-Seeds
+* **Mechanics:** Support Contraction Dynamics ($P > B + V$)
+* **Philosophy:** 3, 6, 9 Universal Frequencies & Vortex Mathematics
 
 ---
 
-## Reading
+> "If you only knew the magnificence of the 3, 6 and 9, then you would have a key to the universe." — Nikola Tesla# 0rion-369 | M.O.C.
 
-Texts can be read independently.  
-No specific order is required.
+**Structural Research & Conceptual Mapping**
 
-The absence of conclusions is intentional.
+Independent investigation into the intersection of closed-loop optimization, recursive feedback, and exogenous entropy.
 
 ---
 
-*Fragments published without signature.*
+## 🔬 Current Research Pillars
+
+### [The-Entropic-Zoo-Protocol](https://github.com/0rion-369/The-Entropic-Zoo-Protocol)
+**The Map.** A conceptual framework examining the ecosystem dynamics of optimization loops and the structural role of exogenous entropy.
+
+### [closed-loop-optimization-risks](https://github.com/0rion-369/closed-loop-optimization-risks)
+**The Proof.** A minimal scientific case for the structural risk of exploration collapse in closed-loop systems. Hypothesis, protocol, results.
+
+---
+
+## 🧩 Core Interests
+* **Variables:** $(S, V, P)$ Optimization Topology
+* **Entropy Sources:** Kinetic-RNG, Rhythmic Resonance, Bio-Seeds
+* **Mechanics:** Support Contraction Dynamics ($P > B + V$)
+* **Philosophy:** 3, 6, 9 Universal Frequencies & Vortex Mathematics
+
+---
+
+> "If you only knew the magnificence of the 3, 6 and 9, then you would have a key to the universe." — Nikola Tesla
