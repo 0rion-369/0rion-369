@@ -1,27 +1,33 @@
-# 0rion-369 | M.O.C.
+# 0rion-369
 
-**Structural Research & Conceptual Mapping**
+**Independent Research — Recursive Systems & Entropic Dynamics**
 
-Independent investigation into the intersection of closed-loop optimization, recursive feedback, and exogenous entropy.
+Empirical investigation into the stability properties of closed-loop 
+optimization in large language models.
 
 ---
 
-## 🔬 Current Research Pillars
-
-### [The-Entropic-Zoo-Protocol](https://github.com/0rion-369/The-Entropic-Zoo-Protocol)
-**The Map.** A conceptual framework examining the ecosystem dynamics of optimization loops and the structural role of exogenous entropy.
+## Research
 
 ### [closed-loop-optimization-risks](https://github.com/0rion-369/closed-loop-optimization-risks)
-**The Proof.** A minimal scientific case for the structural risk of exploration collapse in closed-loop systems. Hypothesis, protocol, results.
+**CLOR — Closed-Loop Optimization Risks**  
+Cross-model stability study: 10 LLMs, 3 families, 100-iteration 
+recursive feedback experiments. Identifies 8 distinct degradation 
+modes. Demonstrates universal mitigation via exogenous injection.  
+→ *Preprint available in repository*
+
+### [The-Entropic-Zoo-Protocol](https://github.com/0rion-369/The-Entropic-Zoo-Protocol)
+**Conceptual framework** for the ecosystem dynamics of optimization 
+loops and the structural role of exogenous entropy sources.  
+→ *Theoretical companion to CLOR*
 
 ---
 
-## 🧩 Core Interests
-* **Variables:** $(S, V, P)$ Optimization Topology
-* **Entropy Sources:** Kinetic-RNG, Rhythmic Resonance, Bio-Seeds
-* **Mechanics:** Support Contraction Dynamics ($P > B + V$)
-* **Philosophy:** 3, 6, 9 Universal Frequencies & Vortex Mathematics
+## Approach
+
+Empirical first. Hypotheses are tested before claims are made.  
+All datasets and scripts are open for reproduction.
 
 ---
 
-> "If you only knew the magnificence of the 3, 6 and 9, then you would have a key to the universe." — Nikola Tesla
+*For conceptual and philosophical work: [MOC-G3C](https://github.com/MOC-G3C)*
