@@ -1,4 +1,4 @@
-# 0rion-369
+M.O.C
 
 ### Independent Research — Recursive Systems & Entropic Dynamics
 
