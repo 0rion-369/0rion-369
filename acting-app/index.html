@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Acting Practice — Répétiteur</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ── SETUP SCREEN ── -->
+  <div id="screen-setup" class="screen active">
+    <div class="setup-card">
+      <h1>🎭 Répétiteur</h1>
+      <p class="subtitle">Pratique et mémorise tes textes</p>
+
+      <section class="setup-section">
+        <label class="upload-label" for="script-file">
+          <span class="upload-icon">📄</span>
+          <span id="upload-text">Importer ton texte (.txt)</span>
+          <input type="file" id="script-file" accept=".txt" hidden />
+        </label>
+      </section>
+
+      <section class="setup-section" id="character-section" hidden>
+        <label for="character-select">Quel personnage joues-tu ?</label>
+        <select id="character-select"></select>
+      </section>
+
+      <section class="setup-section" id="mode-section" hidden>
+        <label>Mode de pratique</label>
+        <div class="mode-grid">
+          <label class="mode-card">
+            <input type="radio" name="mode" value="teleprompter" checked />
+            <span class="mode-icon">📜</span>
+            <span class="mode-title">Téléprompteur</span>
+            <span class="mode-desc">Toutes les répliques visibles</span>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="mode" value="memory" />
+            <span class="mode-icon">🧠</span>
+            <span class="mode-title">Mémoire</span>
+            <span class="mode-desc">Tes répliques sont cachées</span>
+          </label>
+          <label class="mode-card">
+            <input type="radio" name="mode" value="prompt" />
+            <span class="mode-icon">💬</span>
+            <span class="mode-title">Souffleur</span>
+            <span class="mode-desc">Demande la réplique si bloqué</span>
+          </label>
+        </div>
+      </section>
+
+      <button id="btn-start" class="btn btn-primary" hidden>
+        Commencer la répétition →
+      </button>
+    </div>
+
+    <!-- FORMAT HINT -->
+    <details class="format-hint">
+      <summary>Format du texte attendu</summary>
+      <pre>
+JEAN: Bonjour Marie, comment vas-tu ?
+
+MARIE: Très bien, merci ! Et toi ?
+
+JEAN: Je suis un peu stressé avant
+la représentation.
+
+MARIE: Tu vas très bien t'en sortir !
+      </pre>
+      <p>Chaque réplique commence par <code>NOM_PERSONNAGE:</code> suivi du texte.</p>
+    </details>
+  </div>
+
+  <!-- ── PRACTICE SCREEN ── -->
+  <div id="screen-practice" class="screen">
+    <header class="practice-header">
+      <button id="btn-back" class="btn btn-ghost">← Retour</button>
+      <div class="header-info">
+        <span id="header-character" class="badge"></span>
+        <span id="header-mode" class="badge badge-mode"></span>
+      </div>
+      <div class="header-actions">
+        <button id="btn-record" class="btn btn-record">⏺ Enregistrer</button>
+        <span id="rec-timer" class="rec-timer hidden">00:00</span>
+      </div>
+    </header>
+
+    <main class="practice-main">
+      <!-- VIDEO PANEL -->
+      <div class="video-panel">
+        <video id="video-preview" autoplay muted playsinline></video>
+        <div id="rec-indicator" class="rec-dot hidden"></div>
+      </div>
+
+      <!-- SCRIPT PANEL -->
+      <div class="script-panel">
+        <div id="lines-container"></div>
+
+        <div class="controls">
+          <button id="btn-prev" class="btn btn-nav" title="Réplique précédente">◀</button>
+          <button id="btn-prompt" class="btn btn-prompt hidden">💬 Souffler la réplique</button>
+          <button id="btn-next" class="btn btn-nav" title="Réplique suivante">▶</button>
+        </div>
+
+        <div class="progress-bar-wrap">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+        <p id="progress-text" class="progress-text"></p>
+      </div>
+    </main>
+  </div>
+
+  <!-- ── RECORDINGS SCREEN (modal) ── -->
+  <div id="modal-recordings" class="modal hidden">
+    <div class="modal-card">
+      <h2>🎬 Enregistrements</h2>
+      <div id="recordings-list"></div>
+      <button id="btn-close-modal" class="btn btn-ghost">Fermer</button>
+    </div>
+  </div>
+
+  <button id="btn-show-recordings" class="fab hidden" title="Voir les enregistrements">🎬</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
